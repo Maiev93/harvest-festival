@@ -1,0 +1,17 @@
+@import 'reset.css';
+@import 'fonts.css';
+
+:root {
+  font-family: 'Inter', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: #F2F2F2;
+}
+
+.container {
+  padding: clamp(3.75rem, 2.0833rem + 2.6042vw, 6.25rem);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
